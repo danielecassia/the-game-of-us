@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Game of Us</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+<div id="game"></div>
+<div class="hud" id="mission"></div>
+<div class="hud" id="hearts"></div>
+<div id="prompt">[E] Interagir</div>
+<div id="dialog"></div>
+<div id="ui"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js"></script>
+<!-- dados -->
+<script src="src/data/phases.js"></script>
+<script src="src/data/dialogues.js"></script>
+<script src="src/data/memories.js"></script>
+<!-- sistemas -->
+<script src="src/ui/UI.js"></script>
+<script src="src/systems/ProgressSystem.js"></script>
+<script src="src/systems/DialogueSystem.js"></script>
+<script src="src/systems/InteractionSystem.js"></script>
+<script src="src/systems/QuestSystem.js"></script>
+<script src="src/systems/CollectibleSystem.js"></script>
+<script src="src/systems/StealthSystem.js"></script>
+<script src="src/systems/CakeMinigame.js"></script>
+<script src="src/systems/ShoppingSystem.js"></script>
+<!-- entidades -->
+<script src="src/entities/Dani.js"></script>
+<script src="src/entities/Be.js"></script>
+<script src="src/entities/Player.js"></script>
+<!-- cenas -->
+<script src="src/scenes/BootScene.js"></script>
+<script src="src/scenes/MenuScene.js"></script>
+<script src="src/scenes/StoryScene.js"></script>
+<script src="src/scenes/GameScene.js"></script>
+<script src="src/scenes/Phase1Scene.js"></script>
+<script src="src/scenes/Phase2Scene.js"></script>
+<script src="src/scenes/Phase3Scene.js"></script>
+<script src="src/scenes/Phase4Scene.js"></script>
+<script src="src/scenes/EndingScene.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>

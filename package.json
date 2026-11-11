@@ -1,0 +1,7 @@
+{
+  "name": "the-game-of-us",
+  "version": "0.3.0",
+  "description": "Um jogo 2D de aventura narrativa para Dani e Bê",
+  "scripts": { "start": "npx --yes serve ." },
+  "license": "MIT"
+}
